@@ -1,0 +1,37 @@
+body{
+	background-image:url('background3.jpg');
+	background-repeat: repeat-x;
+	background-attachment: fixed;
+}
+table{
+	border:2px solid;
+	width:1000px;
+	height:2000px; /* hatman height bede be tagat!!!! */
+	margin: 0 auto;
+}
+tr#row1{
+	height:100px;
+}
+tr#row2{
+	height:100px;
+}
+td#col1{
+	min-width:200px;
+	max-width: 250px;
+}
+td#col2{
+	min-width:200px;
+	max-width: 250px;
+}
+h2{
+	
+}
+p{
+	text-align:center; 
+}
+form{
+
+}
+textarea{
+	text-align: left;
+}
