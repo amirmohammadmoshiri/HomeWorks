@@ -1,0 +1,77 @@
+p#produ{
+	border-radius:30px;
+	background-color: rgb(180,180,180);
+	opacity:0.8;
+}
+tr#row1{
+	height: 200px;
+}
+tr#row2{
+	height: 200px;
+}
+tr#col1{
+	min-height: 700px;
+}
+table{
+	margin: 0 auto;
+}
+body{
+	background-color: rgb(0,100,255); 
+}
+label{
+	font-size:20px;
+	font-weight:bold;
+}
+fieldset{
+	border-radius:10px;
+	background-image:url('footer-bg1.jpg');
+}
+legend{
+	text-align:center;
+	border-style: solid;
+	border-color:red;
+	background-color:white;
+	border-radius:4px;
+}
+td#wallcen{
+	background-color:rgb(255,255,255);
+	border-bottom-right-radius:35px;
+	border-top-left-radius:35px;
+	border-bottom-left-radius:10px;
+	border-top-right-radius:10px;
+}
+tr#Menu{
+	margin:0 auto;
+	text-align: center; 
+}
+p{
+	text-align: center;
+}
+p#contactp{
+	font-size: 18px;
+	text-align: left;
+}
+table#contactt{
+	text-align: left;
+}
+td.boz{
+	background-image:url('Untitled-1-3.png');
+}
+td.koch{
+	background-image:url('Untitled-1-2.png');
+}
+h2{
+	text-align:center;
+	background:red;
+	border-style: solid;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-left-radius: 25px;
+	border-top-right-radius: 25px; 
+}
+table#tel{
+	background-image:url('tel2.png');
+}
+textarea{
+	text-align: left;
+}
