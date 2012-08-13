@@ -9,6 +9,9 @@ tr#row1{
 tr#row2{
 	height: 200px;
 }
+a{
+	text-decoration: none;
+}
 tr#col1{
 	min-height: 700px;
 }
