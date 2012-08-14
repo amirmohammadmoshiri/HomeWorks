@@ -12,14 +12,8 @@ tr#row2{
 a{
 	text-decoration: none;
 }
-	a#header:link{
-		background-image:url('car-banner.png');
-	}
-	a#header:visited{
-		background-image:url('car-banner.png');
-	}
-	a#header:hover{
-		background-image:url('car-banner2.png');
+	img.head:hover{
+		opacity:0.7;
 	}
 tr#col1{
 	min-height: 700px;
