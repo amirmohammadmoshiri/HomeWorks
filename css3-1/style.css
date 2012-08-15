@@ -8,6 +8,10 @@ div#div2
 	-o-transform:rotate(30deg);
 	text-shadow:5px 5px 10px #FF0000;
 }
+div#div2:hover
+{
+	-webkit-transform:rotate(00deg);
+}
 div#div3
 {
 	font-weight: bold;
@@ -18,25 +22,44 @@ div#div3
 	-o-transform:rotate(-30deg);
 	text-shadow:5px 5px 10px #FF0000;
 }
+div#div3:hover
+{
+	-webkit-transform:rotate(00deg);
+	-moz-transform:rotate(00deg);
+	-o-transform:rotate(00deg);
+	-ms-transform:rotate(00deg);
+}
 div.transi{
 	width:100px;
 	height:100px; 
 	background-color: rgb(30,230,30);
 	-webkit-transition:width 2s , height 2s , font-size 2s , font-weight 2s;
+	-moz-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
+	-o-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
+	-ms-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
 	font-size:30px; 
+	-webkit-animation:myfirst 5s
 }
 div.transi2{
 	width:100px;
 	height:100px; 
 	background-color: rgb(230,30,30);
 	-webkit-transition:width 2s , height 2s , font-size 2s , font-weight 2s;
+	-moz-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
+	-o-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
+	-ms-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
 	font-size:30px; 
+	-webkit-animation:two 5s;
 }
 div#div4:hover{
 	width:200px;
 	height:500px;
 	font-size:70px; 
 	font-weight: bold;
+	@-webkit-keyframes myfirst{
+		0% {background:rgb(30,230,30)}
+		100% {background:rgb(230,230,30)}
+	}
 }
 body{ 
 	background-color: rgb(10,10,250);
