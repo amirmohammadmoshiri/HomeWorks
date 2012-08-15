@@ -44,4 +44,5 @@ body{
 p#pcen{
 	font-size:90px;
 	text-shadow:5px 5px 10px #FF0000;
+	font-weight: bold;
 }
