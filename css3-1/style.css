@@ -1,0 +1,47 @@
+div#div2
+{
+	font-weight: bold;
+	font-size:90px;
+	-ms-transform:rotate(30deg);
+	-moz-transform:rotate(30deg);
+	-webkit-transform:rotate(30deg);
+	-o-transform:rotate(30deg);
+	text-shadow:5px 5px 10px #FF0000;
+}
+div#div3
+{
+	font-weight: bold;
+	font-size:90px;
+	-ms-transform:rotate(-30deg);
+	-moz-transform:rotate(-30deg);
+	-webkit-transform:rotate(-30deg);
+	-o-transform:rotate(-30deg);
+	text-shadow:5px 5px 10px #FF0000;
+}
+div.transi{
+	width:100px;
+	height:100px; 
+	background-color: rgb(30,230,30);
+	-webkit-transition:width 2s , height 2s , font-size 2s , font-weight 2s;
+	font-size:30px; 
+}
+div.transi2{
+	width:100px;
+	height:100px; 
+	background-color: rgb(230,30,30);
+	-webkit-transition:width 2s , height 2s , font-size 2s , font-weight 2s;
+	font-size:30px; 
+}
+div#div4:hover{
+	width:200px;
+	height:500px;
+	font-size:70px; 
+	font-weight: bold;
+}
+body{ 
+	background-color: rgb(10,10,250);
+}
+p#pcen{
+	font-size:90px;
+	text-shadow:5px 5px 10px #FF0000;
+}
