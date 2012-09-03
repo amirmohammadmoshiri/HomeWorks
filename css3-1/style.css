@@ -33,18 +33,17 @@ div.transi{
 	width:100px;
 	height:100px; 
 	background-color: rgb(30,230,30);
-	-webkit-transition:width 2s , height 2s , font-size 2s , font-weight 2s;
+	-webkit-transition:width 2s , height 2s , font-size 2s , font-weight 2s , -webkit-transform 2s;
 	-moz-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
 	-o-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
 	-ms-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
 	font-size:30px; 
-	
 }
 div.transi2{
 	width:100px;
 	height:100px; 
 	background-color: rgb(230,30,30);
-	-webkit-transition:width 2s , height 2s , font-size 2s , font-weight 2s;
+	-webkit-transition:width 2s , height 2s , font-size 2s , font-weight 2s , -webkit-transform 2s;
 	-moz-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
 	-o-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
 	-ms-transform:width 2s , height 2s , font-size 2s , font-weight 2s;
@@ -52,6 +51,7 @@ div.transi2{
 }
 div#div4:hover{
 	-webkit-animation:one 2s infinite;
+	-webkit-transform:translate(-100px,0px);
 	width:200px;
 	height:500px;
 	font-size:70px; 
@@ -59,6 +59,7 @@ div#div4:hover{
 }
 div#div5:hover{
 	-webkit-animation:two 2s infinite;
+	-webkit-transform:translate(100px,0px);
 	width:200px;
 	height:500px;
 	font-size:70px; 
