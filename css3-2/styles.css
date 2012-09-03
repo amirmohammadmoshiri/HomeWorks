@@ -27,27 +27,27 @@ div#foot{
 div#left{
 	font-size: 20px;
 	font-family: times;
-	text-align: center;
-	width:100px;
+	text-align: left;
+	width:200px;
 	height:400px;
-	background-color: red;
+	background-color: rgb(255,100,100);
 	float:left;
 }
 div#cente{
 	font-size: 20px;
 	font-family: times;
 	text-align: center;
-	width:100px;
+	width:500px;
 	height:400px;
-	background-color: red;
+	background-color: rgb(255,50,50);
 	float:center;
 }
 div#right{
 	font-size: 20px;
 	font-family: times;
-	text-align: center;
-	width:100px;
+	text-align: right;
+	width:200px;
 	height:400px;
-	background-color: yellow;
+	background-color: rgb(255,100,100);
 	float:right;
 }
