@@ -1,1 +1,53 @@
-
+div#content{
+	max-width:900px; 
+	max-height:600px; 
+}
+div#head{
+	font-weight: bold;
+	font-size: 40px;
+	font-family: times;
+	text-align: center;
+	width:900px;
+	height:100px;
+	background-color: red; 
+	border-top-left-radius:10px;
+	border-top-right-radius:10px;
+}
+div#foot{
+	font-weight: bold;
+	font-size: 40px;
+	font-family: times;
+	text-align: center;
+	width:900px;
+	height:100px;
+	background-color: red; 
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+div#left{
+	font-size: 20px;
+	font-family: times;
+	text-align: center;
+	width:100px;
+	height:400px;
+	background-color: red;
+	float:left;
+}
+div#cente{
+	font-size: 20px;
+	font-family: times;
+	text-align: center;
+	width:100px;
+	height:400px;
+	background-color: red;
+	float:center;
+}
+div#right{
+	font-size: 20px;
+	font-family: times;
+	text-align: center;
+	width:100px;
+	height:400px;
+	background-color: yellow;
+	float:right;
+}
